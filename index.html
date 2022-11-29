@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>journey.meta</title>
+	<link href="./style.css" rel="stylesheet">
+	<meta name="description" content="Journey.meta est une intégration de la maquette réalisée par une IA et @BastiUi">
+</head>
+<body>
+
+	<header class="z-50 fixed w-full bg-transparent flex justify-between items-center px-4 md:px-12 transition-all duration-200 h-20">
+		<div class="flex items-center">
+			<img src="./img/logo.svg" alt="logo">
+			<a href="#" class="text-white ml-3">
+				<p>journey.meta</p>
+			</a>
+		</div>
+		<nav>
+			<button class="md:hidden">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+				</svg>
+			</button>
+			<ul class="fixed left-0 right-0 min-h-screen px-4 pt-8 text-white transform transition duration-300 translate-x-full md:relative md:flex md:space-x-8 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0">
+				<li>
+					<a class="px-4 py-2 hover:bg-white hover:text-black hover:rounded-full" href="#services">nos services</a>
+				</li>
+				<li>
+					<a class="px-4 py-2 hover:bg-white hover:text-black hover:rounded-full" href="#destinations">nos destinations</a>
+				</li>
+				<li>
+					<a class="px-4 py-2 hover:bg-white hover:text-black hover:rounded-full" href="#offres">nos offres</a>
+				</li>
+				<li>
+					<a class="active px-4 py-2 rounded-full hover:bg-white hover:text-black" href="#">votre espace</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="hero" class="min-h-screen text-center">
+		<div class="btn_hero absolute bottom-10 left-1/2 my-6">
+			<a id="btn_scroolDown" href="#discover" class="active px-4 py-2 text-white hover:bg-white hover:text-black">s'évader</a>
+		</div>
+	</section>
+
+	<section id="discover" class="min-h-screen flex justify-center items-center">
+		<img class="chevrons" src="./img/chevrons.svg" alt="chevrons vertical">
+		<div class="discover h-1/2 w-10/12 md:w-7/12 xxl:w-4/12">
+			<h2 class="font-medium text-4xl text-white mb-5">.une simple phrase <br> et vous décollez</h2>
+
+			<p class="text-white mb-10">
+				Demandez à notre intelligence artificielle où vous <br> souhaitez voyager et nous nous chargerons de vous <br> guider vers la destination 
+				qui vous br convient. Grâce à <br> sa commande vocale, il est facile de s'adapter à votre <br> style de vie et de répondre à vos envies du moment. <br>
+				N'attendez plus et dites-lui où vous souhaitez aller !
+			</p>
+
+			<div class="grid w-12/12 md:w-6/12 space-y-2">
+				<p class="justify-self-start active text-white px-4 py-1">Bonjour</p>
+				<p class="justify-self-end bg-white text-black rounded-full px-4 py-1">Bonjour Clara</p>
+				<p class="justify-self-start active text-white px-4 py-1">Où voulez-vous aller aujourd'hui ?</p>
+				<p class="justify-self-end bg-white text-black rounded-full px-4 py-1">Je ne sais pas, qu'est ce que vous suggérez</p>
+				<p class="justify-self-start active text-white px-4 py-1">Nous pourrions aller à la plage ?</p>
+				<p class="justify-self-end bg-white text-black rounded-full px-4 py-1">D'accord, allons-y !</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="min-h-screen flex justify-center items-center">
+		<div class="services h-1/2 w-10/12 md:w-7/12 xl:3/12">
+			<h2 class="font-medium text-4xl text-white mb-5">.une méthode de <br> voyage respectueuse</h2>
+
+			<p class="text-white mb-10">
+				Pour éviter les émissions de CO2, les vols sont à éviter. Mais pas les <br> 
+				voyages ! Grâce à la réalité virtuelle, il est possible de découvrir des paysages <br>
+				de toute la planète sans bouger de chez soi. Il suffit de disposer <br>
+				d’un casque de réalité virtuelle et d’une manette de jeu. Une fois équipés <br>
+				de cet ensemble, l’utilisateur peut naviguer dans l’espace virtuel <br> 
+				autour de lui comme s’il se trouvait en plein cœur de la jungle amazonienne, dans <br>
+				les ruelles de Rio de Janeiro ou sur les bords de la mer Morte.
+			</p>
+			<div class="flex justify-between space-x-10">
+				<div class="w-4/12 h-60 xl:2/12">
+					<div class="flex justify-center h-1/2">
+						<img src="./img/vaisseau.png" alt="vaisseau">
+					</div>
+					<div class="text-center text-white h-1/2">
+						<p>Réduisez les <br> émissions de CO2</p>
+					</div>
+				</div>
+				<div class="w-4/12 h-60">
+					<div class="flex justify-center h-1/2">
+						<img src="./img/casque.png" alt="casque">
+					</div>
+					<div class="text-center text-white h-1/2">
+						<p>Plongez vous dans <br> un monde immersif</p>
+					</div>
+				</div>
+				<div class="w-4/12 h-60">
+					<div class="flex justify-center h-1/2">
+						<img src="./img/chaise.png" alt="chaise">
+					</div>
+					<div class="text-center text-white h-1/2">
+						<p>Voyagez sans bouger <br> de chez vous</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="womans" class="h-screen">
+
+	</section>
+
+	<section id="destinations" class="h-screen flex justify-center items-center -z-50">
+		<img class="chevrons" src="./img/chevrons.svg" alt="chevrons vertical">
+		<div class="h-1/2 w-10/12 absolute z-20">
+			<h2 class="font-medium text-4xl text-white mb-5">.choisisez votre <br> destination</h2>
+
+			<p class="text-white mb-10">
+				Choisissez votre destination et laissez-vous inspirer. <br>	
+				Paris, la ville de l’amour, n’est-ce pas un pays parfait <br> 
+				pour votre lune de miel ? <br>
+				Rien n’est plus romantique que de flâner dans les rues <br> 
+				de la ville lumière, déguster une crêpe au chocolat et <br> 
+				profiter de la vue magnifique depuis la tour Eiffel.
+			</p>
+
+			<a href="#" class="active text-white px-4 py-2">découvrir les destinations</a>
+		</div>
+
+		<div class="-z-0 scrolling-image-container">
+			<div class="scrolling-image"></div>
+		</div>
+	</section>
+
+	<section id="offres" class="h-screen flex justify-center items-center">
+		<div class="w-11/12 md:w-8/12 text-white">
+			<h2 class="font-medium text-center text-4xl mb-10">.nos offres</h2>
+			<div class="cards flex justify-center gap-2 hover:rounded-lg">
+				<div class="card box-border overflow-hidden p-2 hover:rounded-lg">
+					<img class="object-cover rounded-md" src="./img/offer1.png" alt="starter">
+					<div class="mt-6 p-4">
+					  <p class="text-2xl">.starter</p>
+					  <ul class="mt-4 text-sm pl-4 list-disc">
+						<li>30 min de voyage</li>
+						<li>1 profil</li>
+						<li>publicité</li>
+					  </ul>
+					  <p class="mt-4 mb-4 font-medium">4€/mois</p>
+					  <a href="#" class="active px-4 py-2 hover:bg-white hover:text-black">c'est parti</a>
+					</div>
+				  </div>
+	
+				  <div class="card box-border overflow-hidden p-2 hover:rounded-lg">
+					<img class="object-cover rounded-md" src="./img/offer2.png" alt="traveler">
+					<div class="mt-6 p-4">
+					  <p class="text-2xl">.traveler</p>
+					  <ul class="mt-4 text-sm pl-4 list-disc">
+						<li>1h de voyage</li>
+						<li>3 profils</li>
+						<li>pas de publicité</li>
+					  </ul>
+					  <p class="mt-4 mb-4 font-medium">9€/mois</p>
+					  <a href="#" class="active px-4 py-2 hover:bg-white hover:text-black">c'est parti</a>
+					</div>
+				  </div>
+	
+				  <div class="card box-border overflow-hidden p-2 hover:rounded-lg">
+					<img class="object-cover rounded-md" src="./img/offer3.png" alt="explorer">
+					<div class="mt-6 p-4">
+					  <p class="text-2xl">.explorer</p>
+					  <ul class="mt-4 text-sm pl-4 list-disc">
+						<li>voyage et profils illimités</li>
+						<li>pas de publicité</li>
+						<li>casque premium</li>
+					  </ul>
+					  <p class="mt-4 mb-4 font-medium">19€/mois</p>
+					  <a href="#" class="active px-4 py-2 hover:bg-white hover:text-black">c'est parti</a>
+					</div>
+				  </div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="min-h-screen p-10">
+		<div class="h-screen flex justify-between items-end flex-col text-center md:flex-row">
+			<div class="flex items-center">
+				<img src="./img/logo.svg" alt="logo">
+				<a href="#" class="text-white ml-3">
+					<p>journey.meta</p>
+				</a>
+			</div>
+			<div>
+				<p class="text-white"><a class="underline" href="https://www.youtube.com/@BastiUi" target="_blank">Abonnez-vous à ma chaîne Youtube</a> pour plus de vidéo sur le Design 🫶🏻</p>
+			</div>
+			<div>
+				<a href="#" class="active text-white px-4 py-2 hover:bg-white hover:text-black">on rentre ?</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
